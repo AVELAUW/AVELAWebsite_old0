@@ -1,0 +1,200 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand img{
+    width:50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+    text-align: right;
+    margin-right:20px;
+}
+
+.navbar .fa{
+    color: black!important; 
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: black!important;
+    font-weight: 800;
+
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #331E70;
+}
+
+/* after navigation bar */
+
+/* heaidng  */
+.involvedHeaidng {
+    padding-top: 70px; 
+    font-weight: 600;
+    font: larger;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* block One */
+.blockOne {
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.blockTwo {
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+
+}
+
+.heading{
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font: larger;
+    text-align: center;
+}
+
+.joinPara {
+    font-size: 15px;
+}
+
+/* images */
+.images{
+    text-align: justify;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 25px;
+}
+
+.images img {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+.images:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Sign up Button */
+.signUpBotton {
+   
+    text-align: center;
+   
+ 
+
+}
+
+.pictureDay img{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60%;
+}
+
+
+
+
+/* 
+ Values
+.values {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  th {
+      padding-top: 50px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;    
+  } */
+
+
+  
+/* footer */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #fff;
+    height: 100 !important
+}
+
+.footerLogo{
+    width:200px;
+    margin-top: 5px;
+    
+}
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background:#331E70;
+    color:#fff !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #fff !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+
+.row a {
+    color: white;
+}
+
+
+
+
